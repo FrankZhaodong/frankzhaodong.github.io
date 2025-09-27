@@ -155,26 +155,24 @@ span.highlight {
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 0;
-  left: 0;
   overflow: hidden;
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
   -webkit-transition: opacity .2s ease-in-out;
 }
 
-.profile-hover img {
+/* .profile-hover img {
   width: 100%;
   min-height: 100%;
   object-fit: contain;
   object-position: center;
   border-radius: 50%;
-}
+} */
 
 .profile-container img {
   width: 100%;
   min-height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
   border-radius: 50%;
 }
