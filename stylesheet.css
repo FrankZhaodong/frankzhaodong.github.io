@@ -148,7 +148,7 @@ span.highlight {
   aspect-ratio: 0.8;
   position: relative;
   margin: 0 auto;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .profile-hover {
@@ -165,7 +165,6 @@ span.highlight {
 .profile-hover img {
   width: 100%;
   min-height: 100%;
-  max-height: 101%;
   object-fit: cover;
   object-position: center;
   border-radius: 50%;
@@ -174,7 +173,6 @@ span.highlight {
 .profile-container img {
   width: 100%;
   min-height: 100%;
-  max-height: 101%;
   object-fit: cover;
   object-position: center;
   border-radius: 50%;
