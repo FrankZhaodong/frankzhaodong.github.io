@@ -164,6 +164,7 @@ span.highlight {
 
 .profile-hover img {
   width: 100%;
+  min-height: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
@@ -173,7 +174,9 @@ span.highlight {
 .profile-container img {
   width: 100%;
   min-height: 100%;
-  object-fit: cover;  object-position: center;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
   border-radius: 50%;
 }
 
